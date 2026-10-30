@@ -1,0 +1,12 @@
+m = float(input("Marks: "))
+if m > 100 or m < 0:
+    print("Invalid marks")
+elif m >= 90: print("A+ (4.00)")
+elif m >= 85: print("A (3.75)")
+elif m >= 80: print("B+ (3.50)")
+elif m >= 75: print("B (3.25)")
+elif m >= 70: print("C+ (3.00)")
+elif m >= 65: print("C (2.75)")
+elif m >= 60: print("D+ (2.50)")
+elif m >= 50: print("D (2.25)")
+else: print("F (0.00)")
